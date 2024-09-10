@@ -1,10 +1,11 @@
 ## FullCalendar 👋 
-Chart.js es una biblioteca de JavaScript que facilita la creación de gráficos interactivos y personalizados en aplicaciones web.
+FullCalendar es una biblioteca de JavaScript que permite crear y gestionar calendarios interactivos y altamente personalizables en aplicaciones web.
 
-💾 Puedes hacer su descarga a través de [este enlace](https://github.com/dompdf/dompdf/releases) y solo necesitas los siguientes archivos:
+💾 Puedes hacer su descarga a través de [este enlace](https://fullcalendar.io/docs/initialize-globals) y solo necesitas los siguientes archivos:
 
 | Archivo               |  Carpetas                | Opcional |
 |-----------------------|--------------------------|-----------| 
-| repositorio      | /vendor               |           | 
+| index.global.min.js     | /dist               |           | 
+| index.global.min.js     | /packages/bootstrap5             |     x      | 
 
-He desarrollado un archivo `DomPDF.min.php` que sirva como archivo minificado del proyecto, pero además de este archivo, es necesario migrar la carpeta de /vendor.
+
