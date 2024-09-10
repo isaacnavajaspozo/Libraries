@@ -7,3 +7,10 @@ Highlight.js es una biblioteca de JavaScript que resalta la sintaxis de código 
 |-----------------------|--------------------------|-----------| 
 | highlight.min.js      | /                  |           | 
 | default.min.css   |  /styles               |     x     |
+
+
+## Formas de uso 🥶
+La función `hljs.highlightAll()` asegura que todos los bloques de código en tu página sean resaltados automáticamente.
+```javascript
+  <script>hljs.highlightAll();</script>
+```
