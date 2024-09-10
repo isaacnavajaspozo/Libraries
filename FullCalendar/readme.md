@@ -1,9 +1,10 @@
 ## FullCalendar 👋 
-DataTables es una biblioteca de JavaScript que permite crear tablas interactivas y dinámicas con funcionalidades como búsqueda, ordenación y paginación.
+Chart.js es una biblioteca de JavaScript que facilita la creación de gráficos interactivos y personalizados en aplicaciones web.
 
-💾 Puedes hacer su descarga a través de [este enlace](https://fullcalendar.io/docs/initialize-globals) y solo necesitas los siguientes archivos:
+💾 Puedes hacer su descarga a través de [este enlace](https://github.com/dompdf/dompdf/releases) y solo necesitas los siguientes archivos:
 
 | Archivo               |  Carpetas                | Opcional |
 |-----------------------|--------------------------|-----------| 
-| index.global.min      | /dist                    |           | 
-| index.global.min.js   |  /packages/Bootstrap5    |    x       |
+| repositorio      | /vendor               |           | 
+
+He desarrollado un archivo `DomPDF.min.php` que sirva como archivo minificado del proyecto, pero además de este archivo, es necesario migrar la carpeta de /vendor.
