@@ -1,18 +1,8 @@
-## HTML DOM Parser
+## HTML DOM Parser 👋 
+Simple HTML DOM Parser sirve para hacer scraping de contenido HTML en PHP. Facilita la extracción y manipulación de contenido HTML en PHP.
 
-### Simple HTML DOM Parser sirve para hacer scraper de una página. Ejemplo:
+💾 Puedes hacer su descarga a través de [este enlace](https://simplehtmldom.sourceforge.io/docs/1.9/index.html) y solo necesitas un único archivo:
 
-```php
-include('simple_html_dom.php');
-
-$url = 'https://example.com';
-$html = file_get_html($url);
-
-// Ejemplo: extraer el título de la página
-$title = $html->find('title', 0)->plaintext;
-
-// Devolver como JSON
-header('Content-Type: application/json');
-echo json_encode(['title' => $title]);
-
-```
+| Archivo               | Opcional |
+|-----------------------|-----------| 
+| simple_html_dom.php   |           | 
